@@ -57,18 +57,9 @@ public class Testing1 {
 		
 		
 		System.out.println("static list");
-		System.out.println("integerList="+integerList.stream().map(String::valueOf).collect(Collectors.joining(",")));
-		check(integerList);
-		System.out.println("integerList="+integerList.stream().map(String::valueOf).collect(Collectors.joining(",")));
-		System.out.println("-------------------------------------------------");
+		System.out.println("a="+integerList.stream().map(String::valueOf).collect(Collectors.joining(",")));
 		
-		System.out.println("local list");
-		List<Integer> integerListLocal = new ArrayList<>();
-		System.out.println("integerListLocal="+integerListLocal.stream().map(String::valueOf).collect(Collectors.joining(",")));
-		check(integerListLocal);
-		System.out.println("integerListLocal="+integerListLocal.stream().map(String::valueOf).collect(Collectors.joining(",")));
 		System.out.println("-------------------------------------------------");
-		
 	}
 
 }

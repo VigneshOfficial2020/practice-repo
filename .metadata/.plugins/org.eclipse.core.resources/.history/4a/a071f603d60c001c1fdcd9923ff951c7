@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package practice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author VigneshBabu
+ *
+ */
+public class Testing1 {
+	
+	
+	protected static int a = 10;
+	private static int b = 20;
+	List<Integer> intList = new ArrayList<>();
+
+	
+	/**
+	 * 
+	 */
+	public Testing1() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	private static void check(int ab) {
+		System.out.println("ab="+ab);
+		ab=15;
+		System.out.println("ab="+ab);
+	}
+	
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println("a="+a);
+		check(a);
+		System.out.println("a="+a);
+	}
+
+}

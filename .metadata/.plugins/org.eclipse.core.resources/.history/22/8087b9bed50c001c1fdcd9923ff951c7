@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package practice;
+
+
+/**
+ * @author VigneshBabu
+ *
+ */
+public class Testing1 {
+	
+	
+	protected static int a = 10;
+	private static int b = 20;
+
+	
+	/**
+	 * 
+	 */
+	public Testing1() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	private static void check(int ab) {
+		ab=15;
+	}
+	
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println("a="+a);
+		check(a);
+		System.out.println("a="+a);
+	}
+
+}

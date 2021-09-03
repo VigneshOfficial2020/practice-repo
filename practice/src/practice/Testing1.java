@@ -10,7 +10,7 @@ package practice;
 public class Testing1 {
 	
 	
-	static int a = 10;
+	protected static int a = 10;
 	private static int b = 20;
 
 	

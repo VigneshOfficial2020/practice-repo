@@ -9,6 +9,9 @@ package practice;
  */
 public class Testing2 {
 
+	protected static int a = 10;
+	static int b = 20;
+	
 	/**
 	 * 
 	 */

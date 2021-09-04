@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * @author VigneshBabu
  *
  */
-public class Testing1 implements Interface_Testing_1,Interface_Testing_2 {
+public class Testing1 {
 	
 	
 	protected static int a = 10;
@@ -69,12 +69,6 @@ public class Testing1 implements Interface_Testing_1,Interface_Testing_2 {
 		System.out.println("integerListLocal="+integerListLocal.stream().map(String::valueOf).collect(Collectors.joining(",")));
 		System.out.println("-------------------------------------------------");
 		
-	}
-
-	@Override
-	public String run() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }

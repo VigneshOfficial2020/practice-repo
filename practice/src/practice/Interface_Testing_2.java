@@ -9,5 +9,7 @@ package practice;
  */
 public interface Interface_Testing_2 {
 
-	public String run();
+	default String run() {
+		return null;
+	}
 }

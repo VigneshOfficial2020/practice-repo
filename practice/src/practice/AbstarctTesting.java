@@ -54,6 +54,9 @@ public class AbstarctTesting {
 			System.out.println("B's implementation of m2.");
 		}
 		
+		void m2() {
+			
+		}
 		
 	}
 

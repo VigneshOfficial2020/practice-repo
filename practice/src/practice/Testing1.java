@@ -31,6 +31,7 @@ public class Testing1 implements Interface_Testing_1,Interface_Testing_2 {
 		ab=15;
 		System.out.println("ab="+ab);
 	}
+	
 	private static void check(List<Integer> integerList1) {
 		System.out.println("integerList-1="+integerList1.stream().map(String::valueOf).collect(Collectors.joining(",")));
 		integerList1.add(15);
@@ -68,6 +69,45 @@ public class Testing1 implements Interface_Testing_1,Interface_Testing_2 {
 		check(integerListLocal);
 		System.out.println("integerListLocal="+integerListLocal.stream().map(String::valueOf).collect(Collectors.joining(",")));
 		System.out.println("-------------------------------------------------");
+		
+		
+		String s = new String("hi");
+		System.out.println(s.getClass().getName() + "@" + s.hashCode());
+		
+		String s1 = "hi";
+		System.out.println(s1.getClass().getName() + "@" + s1.hashCode());
+		
+		s1.concat("vicky");
+		System.out.println("after concat="+s1.getClass().getName() + "@" + s1.hashCode());
+		
+		String s2 = "hi";
+		System.out.println(s2.getClass().getName() + "@" + s2.hashCode());
+		
+		System.out.println("s.equals(s1)"+s.equals(s1));
+		System.out.println("num="+s==s1);
+
+		System.out.println("s1.equals(s2)"+s1.equals(s2));
+		System.out.println("s1==s2 = "+s1==s2);
+
+		String s3 = new String("hi");
+		System.out.println("s1==s3 = "+s1==s3);
+		System.out.println("s1.equals(s3)"+s1.equals(s3));
+		
+
+		Integer i = 95;
+		System.out.println(i.getClass().getName() + "@" + i.hashCode());
+
+		i++;
+		System.out.println(i.getClass().getName() + "@" + i.hashCode());
+		
+		
+		Integer j = 95;
+		System.out.println(j.getClass().getName() + "@" + j.hashCode());
+		
+		System.out.println(i==j);
+		System.out.println("i=j"+i.equals(j));
+		
+		
 		
 	}
 

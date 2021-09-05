@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package practice;
+
+/**
+ * @author VigneshBabu
+ *
+ */
+public class ThreadTesting_1 extends Thread{
+
+}

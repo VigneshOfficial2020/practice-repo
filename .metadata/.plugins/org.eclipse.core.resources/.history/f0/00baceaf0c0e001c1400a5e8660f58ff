@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package practice;
+
+/**
+ * @author VigneshBabu
+ *
+ */
+public class ThreadTesting_1 extends Thread{
+	
+	public static void main(String[] args) {
+		
+		ThreadTesting_1 t = new ThreadTesting_1();
+		t.run();
+	}
+
+}

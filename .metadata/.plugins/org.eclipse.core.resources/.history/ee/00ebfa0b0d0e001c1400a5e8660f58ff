@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package practice;
+
+/**
+ * @author VigneshBabu
+ *
+ */
+public class ThreadTesting_2 implements Runnable{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThreadTesting_2 t = new ThreadTesting_2();
+		t.run();
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Thread by Runnable");
+	}
+
+}

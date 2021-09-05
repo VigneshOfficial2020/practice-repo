@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package practice;
+
+/**
+ * @author VigneshBabu
+ *
+ */
+public class ThreadTesting_2 implements Runnable{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
